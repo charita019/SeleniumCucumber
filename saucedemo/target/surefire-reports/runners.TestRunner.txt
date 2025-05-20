@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.266 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality"](1) -- Time elapsed: 5.950 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepdefinitions.LoginStepDefinition.user_is_navigated_to_swag_labs_page(LoginStepDefinition.java:43)
+	at ✽.User is navigated to Swag Labs page(file:///E:/Charita/Study/GitSelenium/SeleniumCucumberVSCode/saucedemo/src/test/java/features/Login.feature:9)
+
