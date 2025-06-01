@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
+import io.cucumber.java.en.But;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -48,14 +49,24 @@ public class LoginStepDefinition {
         driver.quit();
     }
 
-    @When("User enters invalid username {string}")
-    public void user_enters_invalid_username(String usernm){
-        loginPage.enterUserName(usernm);
+    // @When("User enters invalid username {string}")
+    // public void user_enters_invalid_username(String usernm){
+    //     loginPage.enterUserName(usernm);
+    // }
+
+    // @When("User enters invalid password {string}")
+    // public void user_enters_invalid_password(String pass){
+    //     loginPage.enterPassword(pass);
+    // }
+
+    @When("User enters username {string}")
+    public void user_enters_username(String username){
+        loginPage.enterUserName(username);
     }
 
-    @When("User enters invalid password {string}")
-    public void user_enters_invalid_password(String pass){
-        loginPage.enterPassword(pass);
+    @When("User enters password {string}")
+    public void user_enters_password(String password){
+        loginPage.enterPassword(password);
     }
 
     @Then("User is not logged in and gets message as {string}")
@@ -65,17 +76,17 @@ public class LoginStepDefinition {
         driver.quit();
     }
 
-    @When("User enters lockedout username {string}")
-    public void user_enters_lockedout_username(String usernm){
-        loginPage.enterUserName(usernm);
-    }
+    // @When("User enters lockedout username {string}")
+    // public void user_enters_lockedout_username(String usernm){
+    //     loginPage.enterUserName(usernm);
+    // }
 
     @When("User does not enter any credentials")
     public void user_does_not_enter_any_credentials(){
         //intentially leave field blank
     }
 
-    @When("User leave password field blank")
+    @But("User leave password field blank")
     public void user_leave_password_field_blank(){
         //intentionally leave password field as blank
     }
