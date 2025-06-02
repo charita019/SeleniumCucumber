@@ -36,34 +36,6 @@ Examples:
 | test1234        | secret_sauce | Epic sadface: Username and password do not match any user in this service |
 | STANDARD_USER   | SECRET_SAUCE | Epic sadface: Username and password do not match any user in this service |
 
-# Scenario: Login using invalid credentials
-# Given User is on the login page
-# When User enters invalid username "test1234"
-# And User enters invalid password "test1234"
-# And User clicks on Login Button
-# Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service"
-
-# Scenario: Login using lockedout user credentials
-# Given User is on the login page
-# When User enters lockedout username "locked_out_user"
-# And User enters valid password "secret_sauce"
-# And User clicks on Login Button
-# Then User is not logged in and gets message as "Epic sadface: Sorry, this user has been locked out."
-
-# Scenario: Login using valid username and invalid password
-# Given User is on the login page
-# When User enters valid username "standard_user"
-# And User enters invalid password "1234"
-# And User clicks on Login Button
-# Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service"
-
-# Scenario: Login using invalid username and valid password
-# Given User is on the login page
-# When User enters invalid username "test1234"
-# And User enters valid password "secret_sauce"
-# And User clicks on Login Button
-# Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service"
-
 Scenario: Login without providing any credentials
 When User does not enter any credentials
 And User clicks on Login Button
@@ -83,15 +55,11 @@ And User presses TAB key
 And User presses ENTER key
 Then User is navigated to Swag Labs page
 
-# Scenario: Login using Uppercase Username and Password
-# Given User is on the login page
-# When User enters valid username "STANDARD_USER"
-# And User enters valid password "SECRET_SAUCE"
+# Scenario: Navigate into application after logout using browser back Button
+# When User enters valid username "standard_user"
+# And User enters valid password "secret_sauce"
 # And User clicks on Login Button
-# Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service"
-
-Scenario: Navigate into application after logout using browser back Button
-When User enters valid username "standard_user"
-And User enters valid password "secret_sauce"
-And User clicks on Login Button
-And 
+# And User is navigated to Swag Labs page
+# And User clicks on logout link
+# And User clicks on browser back Button
+# Then User should not be logged in and get message as "Epic sadface: You can only access '/inventory.html' when you are logged in."

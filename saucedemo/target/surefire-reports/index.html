@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate into application after logout using browser back Button&quot;, &quot;Sauce Labs Demo Login Functiona...)">runScenario("Navigate into application after logout using browser back Button", "Sauce Labs Demo Login Functiona...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,11 +115,6 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
@@ -123,32 +132,37 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Tab and Enter keys work on the login form&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Tab and Enter keys work on the login form", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check required field validation is coming correctly for password field&quot;, &quot;Sauce Labs Demo Login Fun...)">runScenario("Check required field validation is coming correctly for password field", "Sauce Labs Demo Login Fun...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,22 +182,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Navigate into application after logout using browser back Button&quot;, &quot;Sauce Labs Demo Login Functiona...)">
+                  </a> <!-- runScenario("Navigate into application after logout using browser back Button", "Sauce Labs Demo Login Functiona...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Navigate into application after logout using browser back Button","Sauce Labs Demo Login Functionality")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;User is navigated to Swag Labs Page&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;User is navigated to Swag Labs Page&quot;)
+public void user_is_navigated_to_swag_labs_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;User clicks on logout link&quot;)
+public void user_clicks_on_logout_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;User clicks on browser back Button&quot;)
+public void user_clicks_on_browser_back_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;User should not be logged in and get message as {string}&quot;)
+public void user_should_not_be_logged_in_and_get_message_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">runners.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login using multiple users","Sauce Labs Demo Login Functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
@@ -216,16 +273,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login Using Valid User Credentials","Sauce Labs Demo Login Functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Tab and Enter keys work on the login form&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
                   </a> <!-- runScenario("Tab and Enter keys work on the login form", "Sauce Labs Demo Login Functionality") -->
                   <span class="method-name">runScenario</span>
@@ -236,40 +283,60 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Using Valid User Credentials","Sauce Labs Demo Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login using multiple users","Sauce Labs Demo Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Check required field validation is coming correctly for password field&quot;, &quot;Sauce Labs Demo Login Fun...)">
                   </a> <!-- runScenario("Check required field validation is coming correctly for password field", "Sauce Labs Demo Login Fun...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Check required field validation is coming correctly for password field","Sauce Labs Demo Login Functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login using invalid credentials","Sauce Labs Demo Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -345,56 +412,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestRunner')
-data.setCell(0, 3, 5184);
+data.setCell(0, 3, 10521);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runners.TestRunner')
-data.setCell(1, 3, 3489);
+data.setCell(1, 3, 3098);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runners.TestRunner')
-data.setCell(2, 3, 3330);
+data.setCell(2, 3, 2886);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runners.TestRunner')
-data.setCell(3, 3, 3281);
+data.setCell(3, 3, 2559);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'runners.TestRunner')
-data.setCell(4, 3, 3217);
+data.setCell(4, 3, 2493);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'runners.TestRunner')
-data.setCell(5, 3, 3199);
+data.setCell(5, 3, 2442);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'runners.TestRunner')
-data.setCell(6, 3, 3179);
+data.setCell(6, 3, 2426);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'runners.TestRunner')
-data.setCell(7, 3, 3136);
+data.setCell(7, 3, 2418);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'runners.TestRunner')
-data.setCell(8, 3, 3123);
+data.setCell(8, 3, 2359);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'runners.TestRunner')
-data.setCell(9, 3, 2907);
+data.setCell(9, 3, 2328);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'runners.TestRunner')
-data.setCell(10, 3, 2905);
+data.setCell(10, 3, 2327);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runners.TestRunner')
+data.setCell(11, 3, 2203);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -422,56 +493,62 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@79e7188e)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@364fd4ae)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login Using Valid User Credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">748 ms</span>
+                <span class="method-start">906 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">5938 ms</span>
+                <span class="method-start">11427 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using multiple users", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">9064 ms</span>
+                <span class="method-start">14525 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">12394 ms</span>
+                <span class="method-start">17411 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">15532 ms</span>
+                <span class="method-start">19971 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">19021 ms</span>
+                <span class="method-start">22464 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">22220 ms</span>
+                <span class="method-start">24890 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login using invalid credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">25502 ms</span>
+                <span class="method-start">27252 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login without providing any credentials", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">28722 ms</span>
+                <span class="method-start">29671 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Check required field validation is coming correctly for password field", "Sauce Labs Demo Login Fun...)</span>
-                <span class="method-start">31629 ms</span>
+                <span class="method-start">31874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Tab and Enter keys work on the login form", "Sauce Labs Demo Login Functionality")</span>
-                <span class="method-start">34535 ms</span>
+                <span class="method-start">34201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Navigate into application after logout using browser back Button", "Sauce Labs Demo Login Functiona...)</span>
+                <span class="method-start">36643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">37718 ms</span>
+                <span class="method-start">38980 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="38.549" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="39.694" tests="12" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire14386742269494655577\surefirebooter-20250602020057479_3.jar C:\Users\hp\AppData\Local\Temp\surefire14386742269494655577 2025-06-02T02-00-57_255-jvmRun1 surefire-20250602020057479_1tmp surefire_0-20250602020057479_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire14707206565574545793\surefirebooter-20250602132800423_3.jar C:\Users\hp\AppData\Local\Temp\surefire14707206565574545793 2025-06-02T13-28-00_180-jvmRun1 surefire-20250602132800423_1tmp surefire_0-20250602132800423_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Charita\Study\GitSelenium\SeleniumCucumberVSCode\saucedemo\target\test-classes;E:\Charita\Study\GitSelenium\SeleniumCucumberVSCode\saucedemo\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\hp\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\hp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\hp\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\hp\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\hp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\hp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire14386742269494655577\surefirebooter-20250602020057479_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire14707206565574545793\surefirebooter-20250602132800423_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](1)" classname="runners.TestRunner" time="5.181">
+  <testcase name="runScenario[&quot;Login Using Valid User Credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](1)" classname="runners.TestRunner" time="10.527">
     <system-out><![CDATA[
 Scenario: Login Using Valid User Credentials      # src/test/java/features/Login.feature:7
   Given User is on the login page                 # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -70,13 +70,13 @@ Scenario: Login Using Valid User Credentials      # src/test/java/features/Login
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 02, 2025 2:01:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 02, 2025 1:28:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](2)" classname="runners.TestRunner" time="3.124">
+  <testcase name="runScenario[&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](2)" classname="runners.TestRunner" time="3.083">
     <system-out><![CDATA[
 Scenario Outline: Login using multiple users    # src/test/java/features/Login.feature:22
   Given User is on the login page               # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -85,13 +85,13 @@ Scenario Outline: Login using multiple users    # src/test/java/features/Login.f
   And User clicks on Login Button               # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is navigated to Swag Labs page      # stepdefinitions.LoginStepDefinition.user_is_navigated_to_swag_labs_page()
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](3)" classname="runners.TestRunner" time="3.328">
+  <testcase name="runScenario[&quot;Login using multiple users&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](3)" classname="runners.TestRunner" time="2.886">
     <system-out><![CDATA[
 Scenario Outline: Login using multiple users      # src/test/java/features/Login.feature:23
   Given User is on the login page                 # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -100,13 +100,13 @@ Scenario Outline: Login using multiple users      # src/test/java/features/Login
   And User clicks on Login Button                 # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is navigated to Swag Labs page        # stepdefinitions.LoginStepDefinition.user_is_navigated_to_swag_labs_page()
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](4)" classname="runners.TestRunner" time="3.138">
+  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](4)" classname="runners.TestRunner" time="2.56">
     <system-out><![CDATA[
 Scenario Outline: Login using invalid credentials                                                                            # src/test/java/features/Login.feature:33
   Given User is on the login page                                                                                            # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -115,13 +115,13 @@ Scenario Outline: Login using invalid credentials                               
   And User clicks on Login Button                                                                                            # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_message_as(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](5)" classname="runners.TestRunner" time="3.489">
+  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](5)" classname="runners.TestRunner" time="2.475">
     <system-out><![CDATA[
 Scenario Outline: Login using invalid credentials                                                      # src/test/java/features/Login.feature:34
   Given User is on the login page                                                                      # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -130,13 +130,13 @@ Scenario Outline: Login using invalid credentials                               
   And User clicks on Login Button                                                                      # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets message as "Epic sadface: Sorry, this user has been locked out." # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_message_as(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](6)" classname="runners.TestRunner" time="3.199">
+  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](6)" classname="runners.TestRunner" time="2.423">
     <system-out><![CDATA[
 Scenario Outline: Login using invalid credentials                                                                            # src/test/java/features/Login.feature:35
   Given User is on the login page                                                                                            # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -145,13 +145,13 @@ Scenario Outline: Login using invalid credentials                               
   And User clicks on Login Button                                                                                            # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_message_as(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](7)" classname="runners.TestRunner" time="3.254">
+  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](7)" classname="runners.TestRunner" time="2.362">
     <system-out><![CDATA[
 Scenario Outline: Login using invalid credentials                                                                            # src/test/java/features/Login.feature:36
   Given User is on the login page                                                                                            # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -160,13 +160,13 @@ Scenario Outline: Login using invalid credentials                               
   And User clicks on Login Button                                                                                            # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_message_as(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](8)" classname="runners.TestRunner" time="3.198">
+  <testcase name="runScenario[&quot;Login using invalid credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](8)" classname="runners.TestRunner" time="2.419">
     <system-out><![CDATA[
 Scenario Outline: Login using invalid credentials                                                                            # src/test/java/features/Login.feature:37
   Given User is on the login page                                                                                            # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
@@ -175,44 +175,44 @@ Scenario Outline: Login using invalid credentials                               
   And User clicks on Login Button                                                                                            # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets message as "Epic sadface: Username and password do not match any user in this service" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_message_as(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login without providing any credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](9)" classname="runners.TestRunner" time="2.89">
+  <testcase name="runScenario[&quot;Login without providing any credentials&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](9)" classname="runners.TestRunner" time="2.203">
     <system-out><![CDATA[
-Scenario: Login without providing any credentials                                                    # src/test/java/features/Login.feature:67
+Scenario: Login without providing any credentials                                                    # src/test/java/features/Login.feature:39
   Given User is on the login page                                                                    # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
   When User does not enter any credentials                                                           # stepdefinitions.LoginStepDefinition.user_does_not_enter_any_credentials()
   And User clicks on Login Button                                                                    # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets required field validation "Epic sadface: Username is required" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_required_field_validation(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Check required field validation is coming correctly for password field&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](10)" classname="runners.TestRunner" time="2.906">
+  <testcase name="runScenario[&quot;Check required field validation is coming correctly for password field&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](10)" classname="runners.TestRunner" time="2.328">
     <system-out><![CDATA[
-Scenario: Check required field validation is coming correctly for password field                     # src/test/java/features/Login.feature:72
+Scenario: Check required field validation is coming correctly for password field                     # src/test/java/features/Login.feature:44
   Given User is on the login page                                                                    # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
   When User enters valid username "standard_user"                                                    # stepdefinitions.LoginStepDefinition.user_enters_valid_username(java.lang.String)
   But User leave password field blank                                                                # stepdefinitions.LoginStepDefinition.user_leave_password_field_blank()
   And User clicks on Login Button                                                                    # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
   Then User is not logged in and gets required field validation "Epic sadface: Password is required" # stepdefinitions.LoginStepDefinition.user_is_not_logged_in_and_gets_required_field_validation(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Tab and Enter keys work on the login form&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](11)" classname="runners.TestRunner" time="3.18">
+  <testcase name="runScenario[&quot;Tab and Enter keys work on the login form&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](11)" classname="runners.TestRunner" time="2.44">
     <system-out><![CDATA[
-Scenario: Tab and Enter keys work on the login form # src/test/java/features/Login.feature:78
+Scenario: Tab and Enter keys work on the login form # src/test/java/features/Login.feature:50
   Given User is on the login page                   # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
   When User enters valid username "standard_user"   # stepdefinitions.LoginStepDefinition.user_enters_valid_username(java.lang.String)
   And User presses TAB key                          # stepdefinitions.LoginStepDefinition.user_presses_tab_key()
@@ -221,9 +221,93 @@ Scenario: Tab and Enter keys work on the login form # src/test/java/features/Log
   And User presses ENTER key                        # stepdefinitions.LoginStepDefinition.user_presses_enter_key()
   Then User is navigated to Swag Labs page          # stepdefinitions.LoginStepDefinition.user_is_navigated_to_swag_labs_page()
 ]]></system-out>
-    <system-err><![CDATA[Jun 02, 2025 2:01:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jun 02, 2025 1:28:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 02, 2025 2:01:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 02, 2025 1:28:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate into application after logout using browser back Button&quot;, &quot;Sauce Labs Demo Login Functionality&quot;](12)" classname="runners.TestRunner" time="2.335">
+    <failure message="The step &apos;User is navigated to Swag Labs Page&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;User is navigated to Swag Labs Page&quot;)&#10;public void user_is_navigated_to_swag_labs_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;User clicks on logout link&quot;)&#10;public void user_clicks_on_logout_link() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;User clicks on browser back Button&quot;)&#10;public void user_clicks_on_browser_back_button() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;User should not be logged in and get message as {string}&quot;)&#10;public void user_should_not_be_logged_in_and_get_message_as(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'User is navigated to Swag Labs Page' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User is navigated to Swag Labs Page")
+public void user_is_navigated_to_swag_labs_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks on logout link")
+public void user_clicks_on_logout_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks on browser back Button")
+public void user_clicks_on_browser_back_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should not be logged in and get message as {string}")
+public void user_should_not_be_logged_in_and_get_message_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+@wip
+Scenario: Navigate into application after logout using browser back Button                                                           # src/test/java/features/Login.feature:59
+  Given User is on the login page                                                                                                    # stepdefinitions.LoginStepDefinition.user_is_on_the_login_page()
+  When User enters valid username "standard_user"                                                                                    # stepdefinitions.LoginStepDefinition.user_enters_valid_username(java.lang.String)
+  And User enters valid password "secret_sauce"                                                                                      # stepdefinitions.LoginStepDefinition.user_enters_valid_password(java.lang.String)
+  And User clicks on Login Button                                                                                                    # stepdefinitions.LoginStepDefinition.user_clicks_on_login_button()
+  And User is navigated to Swag Labs Page
+  And User clicks on logout link
+  And User clicks on browser back Button
+  Then User should not be logged in and get message as "Epic sadface: You can only access '/inventory.html' when you are logged in."
+]]></system-out>
+    <system-err><![CDATA[Jun 02, 2025 1:28:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 02, 2025 1:28:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

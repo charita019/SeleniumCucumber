@@ -49,16 +49,6 @@ public class LoginStepDefinition {
         driver.quit();
     }
 
-    // @When("User enters invalid username {string}")
-    // public void user_enters_invalid_username(String usernm){
-    //     loginPage.enterUserName(usernm);
-    // }
-
-    // @When("User enters invalid password {string}")
-    // public void user_enters_invalid_password(String pass){
-    //     loginPage.enterPassword(pass);
-    // }
-
     @When("User enters username {string}")
     public void user_enters_username(String username){
         loginPage.enterUserName(username);
@@ -75,11 +65,6 @@ public class LoginStepDefinition {
         Assert.assertEquals(actualMessage.trim(), expectedmessage.trim(), "Actual Message is not same as Expected Message");
         driver.quit();
     }
-
-    // @When("User enters lockedout username {string}")
-    // public void user_enters_lockedout_username(String usernm){
-    //     loginPage.enterUserName(usernm);
-    // }
 
     @When("User does not enter any credentials")
     public void user_does_not_enter_any_credentials(){
